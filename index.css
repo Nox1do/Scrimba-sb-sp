@@ -1,0 +1,76 @@
+@font-face {
+    src: url("scoreFont.ttf");
+    font-family: scoreFont;
+}
+
+
+body {
+    font-family: scoreFont;
+  max-width: 600px;
+  margin: auto;
+  background: #9AABD8;
+  
+    
+  
+    
+}
+h3 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 0px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0C4A6E;
+    width: 550px;
+    margin: 20px;
+    text-align: center;
+}
+button {
+background: none;
+color: white;
+border: 2px solid #9AABD8;
+border-radius: 4px;
+font-size: 1rem;
+color: #9AABD8;
+margin-bottom: 20px;
+padding-top: 5px;
+font-family: scoreFont;
+text-align: center;
+
+}
+button:hover{
+   color: white;
+   font-size: 1.2em;
+   border: 2px solid green;
+}
+#scoreH, #scoreG {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: orangered;
+    font-size: 3.5rem;
+    margin: 5.5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+#hPoints-el{
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    border: none;
+       
+}
+
+#newg {
+width: 120px;
+height: 50px;
+margin-top: 90px;
+}
