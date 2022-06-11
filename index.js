@@ -1,4 +1,5 @@
 let score = 0;
+let score$ = 0;
 
 let onePEl = document.getElementById("scoreH");
 let twoPEl = document.getElementById("scoreH");
@@ -23,20 +24,21 @@ function threeP(){
     //GUEST TEAM 
 }
 function onePG(){
-    score += 1;
-    onePElG.textContent = score;  
+    score$ += 1;
+    onePElG.textContent = score$;  
 }
 function twoPG(){
-    score += 2;
-    twoPElG.textContent = score;  
+    score$ += 2;
+    twoPElG.textContent = score$;  
 }
 function threePG(){
-    score += 3;
-    threePElG.textContent = score;  
+   score$ += 3;
+    threePElG.textContent = score$;  
 }
 function newGame() {
-    newGame1.textContent = 0
-    newGame2.textContent = 0
-    score = 0
+    newGame1.textContent = 0;
+    newGame2.textContent = 0;
+    score = 0;
+    score$ = 0;
 }
 
